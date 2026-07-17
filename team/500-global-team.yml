@@ -1,0 +1,59 @@
+generated: '2026-07-17'
+method: searched
+source: https://500.co/team
+type: Team
+team:
+  - name: Christine Tsai
+    role: Chief Executive Officer & Founding Partner
+  - name: Courtney Powell
+    role: Chief Operating Officer & Managing Partner
+  - name: Paul Yoo
+    role: Chief Financial Officer & Managing Partner
+  - name: Bedy Yang
+    role: Managing Partner
+  - name: Khailee Ng
+    role: Managing Partner
+  - name: Tony Wang
+    role: Managing Partner
+  - name: Santiago Zavala
+    role: Managing Partner
+  - name: Vishal Harnal
+    role: Managing Partner
+  - name: Mei Chel Tan
+    role: Managing Partner
+  - name: Brinda Dutta
+    role: General Counsel
+  - name: Nadia Karkar
+    role: Managing Partner
+  - name: Alaa Murabit
+    role: Managing Partner, Sustainable Growth
+  - name: Pedro Vieira
+    role: Partner, Eurasia
+  - name: Abdulrahman AlJiffry
+    role: Partner, Middle East
+  - name: Amjad Ahmad
+    role: Managing Partner, MENA
+  - name: Amal Dokhan
+    role: Managing Partner, 500 MENA
+  - name: Damaris Mendoza
+    role: Partner, Latin America
+  - name: Didier Quiroz
+    role: Partner, Latin America
+  - name: René Lomelí
+    role: Partner, Latin America
+  - name: Regina Zurutuza
+    role: Partner, Latin America
+  - name: Demola Adegbite
+    role: Partner, Africa
+  - name: Amal Enan
+    role: Partner, Egypt
+  - name: Mameaw Sapprasert
+    role: Partner, Southeast Asia
+  - name: Krating Poonpol
+    role: Partner, Southeast Asia
+  - name: Shahril Ibrahim
+    role: Partner, Southeast Asia
+  - name: Sung Woo Ahn
+    role: Partner, Southeast Asia
+  - name: Min Kim
+    role: General Partner, Korea

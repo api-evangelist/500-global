@@ -1,0 +1,90 @@
+aid: 500-global
+name: 500 Global
+description: >-
+  500 Global (formerly 500 Startups) is a global venture capital firm and startup accelerator founded
+  in 2010 by Dave McClure and Christine Tsai and headquartered in Palo Alto / Silicon Valley, California.
+  The firm invests from pre-seed to pre-IPO in globally ambitious technology founders, built on the belief
+  that "talent lives everywhere, but capital and opportunity does not." 500 Global pioneered a
+  "lots of little bets" seed strategy, backing hundreds of companies per fund with smaller initial checks,
+  and has grown one of the industry's largest truly global seed portfolios: 3,000+ companies across 80+
+  countries with $300B+ in cumulative portfolio valuation, including 35+ companies valued at $1B+ and 160+
+  valued at more than $100M. It runs regional and thematic practices spanning Southeast Asia, Latin America,
+  MENA, Africa, Japan, Korea, Thailand, and Eurasia, plus a Sustainable Growth strategy (health, climate,
+  agriculture, gender, education), flagship accelerator programs, and the VC Unlocked investor-education
+  program that has trained 1,400+ investors. As of April 30, 2025 the firm reported approximately $2.3B in
+  assets under management. Notable investments include Canva, Grab, Talkdesk, Credit Karma, Twilio, and Bukalapak.
+image: https://500.co/favicon.ico
+x-type: venture-capital
+x-category: Venture Capital
+created: '2026-07-17'
+modified: '2026-07-17'
+specificationVersion: '0.20'
+tags:
+  - Venture Capital
+  - Accelerator
+  - Pre-Seed
+  - Seed
+  - Series A
+  - Growth
+  - Fintech
+  - SaaS
+  - Developer Tools
+  - Artificial Intelligence
+  - Emerging Markets
+  - Global
+  - Silicon Valley
+apis: []
+common:
+  - type: Website
+    url: https://500.co/
+  - type: Portfolio
+    url: https://500.co/portfolio
+  - type: Portfolio
+    url: portfolio/500-global-portfolio.yml
+  - type: Team
+    url: https://500.co/team
+  - type: Team
+    url: team/500-global-team.yml
+  - type: InvestmentThesis
+    url: https://500.co/funds
+  - type: Blog
+    url: https://500.co/content
+  - type: News
+    url: https://500.co/content
+  - type: Newsletter
+    url: https://500.co/newsletter-sign-up
+  - type: Pitch
+    url: https://500.co/contact
+  - type: Jobs
+    url: https://500.co/careers
+  - type: Contact
+    url: https://500.co/contact
+  - type: Crunchbase
+    url: https://www.crunchbase.com/organization/500-startups
+  - type: LinkedIn
+    url: https://linkedin.com/company/500global
+  - type: Twitter
+    url: https://x.com/500GlobalVC
+  - type: Features
+    data:
+      - "Stage: Pre-seed to pre-IPO (seed-focused accelerator model)"
+      - "Typical check: smaller initial seed checks under a 'lots of little bets' strategy"
+      - "Sectors: technology-agnostic - fintech, SaaS, developer tools, AI/ML, e-commerce, big data, mobile, consumer"
+      - "Geography: Global - US, Southeast Asia, Latin America, MENA, Africa, Japan, Korea, Thailand, Eurasia (80+ countries)"
+      - "AUM: ~$2.3B (as of April 30, 2025)"
+      - "Portfolio: 3,000+ companies; 35+ valued $1B+; 160+ valued $100M+; $300B+ cumulative valuation"
+      - "Founded: 2010 (as 500 Startups; rebranded 500 Global in 2021)"
+      - "HQ: Palo Alto / Silicon Valley, California, USA"
+    sources:
+      - https://500.co/
+      - https://500.co/funds
+      - https://www.cbinsights.com/investor/500-startups
+    updated: '2026-07-17'
+maintainers:
+  - FN: Kin Lane
+    email: info@apievangelist.com
+    url: https://apievangelist.com
+  - FN: APIs.json
+    url: http://apisjson.org
+  - FN: 500 Global
+    url: https://500.co/
