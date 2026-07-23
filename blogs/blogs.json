@@ -1,0 +1,14 @@
+{
+  "repo": "500-global",
+  "feeds": [
+    {
+      "source": "https://500.co/funds",
+      "feed_url": "https://500.co/funds",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-07-20T13:31:34Z"
+}
