@@ -7910,13 +7910,6 @@ companies:
   is_api_provider: false
   slug: prefer
   matched_by: domain
-- name: Prescrypto
-  url: https://prescrypto.com
-  source: https://500.co/portfolio
-  in_network: true
-  is_api_provider: true
-  slug: prescrypto
-  matched_by: domain
 - name: Presto
   url: https://presto.com
   source: https://500.co/portfolio
