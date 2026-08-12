@@ -7710,7 +7710,7 @@ companies:
 - name: PlayHT
   url: https://play.ht
   source: https://500.co/portfolio
-  slug: play-ht
+  slug: playht
   in_network: true
   is_api_provider: true
   matched_by: domain
