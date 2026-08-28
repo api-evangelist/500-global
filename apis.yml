@@ -13,6 +13,17 @@ description: >-
   agriculture, gender, education), flagship accelerator programs, and the VC Unlocked investor-education
   program that has trained 1,400+ investors. As of April 30, 2025 the firm reported approximately $2.3B in
   assets under management. Notable investments include Canva, Grab, Talkdesk, Credit Karma, Twilio, and Bukalapak.
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
