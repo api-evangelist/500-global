@@ -7299,7 +7299,7 @@ companies:
   source: https://500.co/portfolio
   in_network: true
   is_api_provider: false
-  slug: plate-iq
+  slug: ottimate
   matched_by: domain
 - name: Paro
   url: https://plateiq.com
