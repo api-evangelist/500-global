@@ -8356,7 +8356,7 @@ companies:
   source: https://500.co/portfolio
   in_network: true
   is_api_provider: true
-  slug: recursal-ai-inc
+  slug: featherless
   matched_by: domain
 - name: Reddit
   url: https://redditinc.com
@@ -8433,7 +8433,7 @@ companies:
   source: https://500.co/portfolio
   in_network: true
   is_api_provider: false
-  slug: neonrain-inc
+  slug: playablai
   matched_by: domain
 - name: Replyr.ai
   url: https://replyr.ai
@@ -9266,7 +9266,7 @@ companies:
   source: https://500.co/portfolio
   in_network: true
   is_api_provider: true
-  slug: kufu
+  slug: smarthr
   matched_by: domain
 - name: Smile Identity
   url: https://smileidentity.com
