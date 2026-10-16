@@ -10290,13 +10290,6 @@ companies:
   is_api_provider: false
   slug: travelio
   matched_by: domain
-- name: Shelf
-  url: https://traveljoy.com
-  source: https://500.co/portfolio
-  slug: traveljoy
-  in_network: true
-  is_api_provider: false
-  matched_by: domain
 - name: Trend
   url: https://trend.io
   source: https://500.co/portfolio
