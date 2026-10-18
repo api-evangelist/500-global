@@ -2,10 +2,10 @@ generated: '2026-07-17'
 method: searched
 source: https://500.co/portfolio
 summary:
-  portfolio_total: 2133
-  in_network: 2132
-  api_providers: 225
-  missing: 1
+  portfolio_total: 2113
+  in_network: 1995
+  api_providers: 221
+  missing: 118
   stubs_created: 0
 companies:
 - name: 15Five
@@ -68,8 +68,8 @@ companies:
   url: https://99minutos.com
   source: https://500.co/portfolio
   in_network: true
-  is_api_provider: false
-  slug: 99minutos
+  is_api_provider: true
+  slug: 99-minutos
   matched_by: domain
 - name: 9FIN
   url: https://9fin.com
@@ -152,7 +152,7 @@ companies:
   url: https://adsmom.com
   source: https://500.co/portfolio
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   slug: adsmom-inc
   matched_by: domain
 - name: Aella Credit
@@ -244,7 +244,7 @@ companies:
   source: https://500.co/portfolio
   in_network: true
   is_api_provider: false
-  slug: airbility
+  slug: 21gram
   matched_by: domain
 - name: Aircall
   url: https://aircall.io
@@ -314,7 +314,7 @@ companies:
   source: https://500.co/portfolio
   slug: algolia
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   matched_by: domain
 - name: Aliena
   url: https://aliena.sg
@@ -424,7 +424,7 @@ companies:
 - name: Ambience Healthcare
   url: https://ambiencehealthcare.com
   source: https://500.co/portfolio
-  slug: ambience-ai
+  slug: ambience-healthcare
   in_network: true
   is_api_provider: false
   matched_by: domain
@@ -482,7 +482,7 @@ companies:
   source: https://500.co/portfolio
   in_network: true
   is_api_provider: false
-  slug: anduin-transactions
+  slug: anduin
   matched_by: domain
 - name: AngelCam
   url: https://angelcam.com
@@ -494,10 +494,10 @@ companies:
 - name: AngelList
   url: https://angel.co
   source: https://500.co/portfolio
-  slug: angellist
-  in_network: true
+  in_network: false
   is_api_provider: false
-  matched_by: domain
+  x-name-collision: angellist
+  suggested_slug: angel-co
 - name: Appionics
   url: https://animocabrands.com
   source: https://500.co/portfolio
@@ -585,10 +585,10 @@ companies:
 - name: Apple
   url: https://applecrumbyandfish.com
   source: https://500.co/portfolio
-  slug: apple
-  in_network: true
-  is_api_provider: true
-  matched_by: name-slug
+  in_network: false
+  is_api_provider: false
+  x-name-collision: apple
+  suggested_slug: applecrumbyandfish-com
 - name: ApplyBoard
   url: https://applyboard.com
   source: https://500.co/portfolio
@@ -761,7 +761,7 @@ companies:
   url: https://autofi.com
   source: https://500.co/portfolio
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   slug: autofi
   matched_by: domain
 - name: Autopass
@@ -774,10 +774,10 @@ companies:
 - name: Avant
   url: https://argania.my
   source: https://500.co/portfolio
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: avant
-  matched_by: name-slug
+  x-name-collision: avant
+  suggested_slug: argania-my
 - name: Avatao
   url: https://avatao.com
   source: https://500.co/portfolio
@@ -858,10 +858,10 @@ companies:
 - name: AWST
   url: https://awst.io
   source: https://500.co/portfolio
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: awst
-  matched_by: name-slug
+  x-name-collision: awst
+  suggested_slug: awst-io
 - name: Axend
   url: https://axend.io
   source: https://500.co/portfolio
@@ -907,10 +907,9 @@ companies:
 - name: Backstartup
   url: https://backstartup.com
   source: https://500.co/portfolio
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: backstartup
-  matched_by: name-slug
+  suggested_slug: backstartup
 - name: BALAD CORP
   url: https://balad.me
   source: https://500.co/portfolio
@@ -942,10 +941,10 @@ companies:
 - name: Bariendo Inc.
   url: https://bariendo.com
   source: https://500.co/portfolio
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: bariendo-inc
-  matched_by: name-slug
+  x-name-collision: bariendo-inc
+  suggested_slug: bariendo-com
 - name: Barn & Willow
   url: https://barnandwillow.com
   source: https://500.co/portfolio
@@ -973,13 +972,6 @@ companies:
   in_network: true
   is_api_provider: false
   slug: bayapay-sdn-bhd
-  matched_by: domain
-- name: BAYCON
-  url: https://baycon.co.kr
-  source: https://500.co/portfolio
-  in_network: true
-  is_api_provider: false
-  slug: airbility
   matched_by: domain
 - name: Bustle
   url: https://bdg.com
@@ -1049,7 +1041,7 @@ companies:
   source: https://500.co/portfolio
   in_network: true
   is_api_provider: false
-  slug: nabfly
+  slug: bespoke-post
   matched_by: domain
 - name: Besuccess
   url: https://besuccess.com
@@ -1166,10 +1158,10 @@ companies:
 - name: Blink
   url: https://blinkco.io
   source: https://500.co/portfolio
-  slug: blink
-  in_network: true
-  is_api_provider: true
-  matched_by: name-slug
+  in_network: false
+  is_api_provider: false
+  x-name-collision: blink
+  suggested_slug: blinkco-io
 - name: Blissmo
   url: https://blissmo.com
   source: https://500.co/portfolio
@@ -1180,17 +1172,17 @@ companies:
 - name: Block
   url: https://blockblock.io
   source: https://500.co/portfolio
-  slug: block
-  in_network: true
-  is_api_provider: true
-  matched_by: name-slug
+  in_network: false
+  is_api_provider: false
+  x-name-collision: block
+  suggested_slug: blockblock-io
 - name: MommaZoo
   url: https://blockcypher.com
   source: https://500.co/portfolio
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: mommazoo
-  matched_by: name-slug
+  x-name-collision: mommazoo
+  suggested_slug: blockcypher-com
 - name: BlockVigil
   url: https://blockvigil.com
   source: https://500.co/portfolio
@@ -1334,10 +1326,10 @@ companies:
 - name: LexSpot
   url: https://bridge.legal
   source: https://500.co/portfolio
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: lexspot
-  matched_by: name-slug
+  x-name-collision: lexspot
+  suggested_slug: bridge-legal
 - name: Bounty Hunter
   url: https://bhuntr.com
   source: https://500.co/portfolio
@@ -1432,7 +1424,7 @@ companies:
 - name: Brilliant
   url: https://brilliant.org
   source: https://500.co/portfolio
-  slug: brilliant
+  slug: brilliant-org
   in_network: true
   is_api_provider: false
   matched_by: domain
@@ -1488,10 +1480,10 @@ companies:
 - name: Buildcon
   url: https://buildcon.org
   source: https://500.co/portfolio
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: buildcon
-  matched_by: name-slug
+  x-name-collision: buildcon
+  suggested_slug: buildcon-org
 - name: Bukalapak
   url: https://bukalapak.com
   source: https://500.co/portfolio
@@ -1502,7 +1494,7 @@ companies:
 - name: Lummo
   url: https://bukukas.co.id
   source: https://500.co/portfolio
-  slug: erudifi
+  slug: actavis
   in_network: true
   is_api_provider: false
   matched_by: domain
@@ -1586,10 +1578,10 @@ companies:
 - name: Cadence
   url: https://cadencetranslate.com
   source: https://500.co/portfolio
-  slug: cadence
-  in_network: true
+  in_network: false
   is_api_provider: false
-  matched_by: name-slug
+  x-name-collision: cadence
+  suggested_slug: cadencetranslate-com
 - name: Cado Gifts, Inc.
   url: https://cadogifting.com
   source: https://500.co/portfolio
@@ -1628,10 +1620,10 @@ companies:
 - name: Canopy
   url: https://heycanopy.com
   source: https://500.co/portfolio
-  slug: canopy
-  in_network: true
+  in_network: false
   is_api_provider: false
-  matched_by: name-slug
+  x-name-collision: canopy
+  suggested_slug: heycanopy-com
 - name: Canva
   url: https://canva.com
   source: https://500.co/portfolio
@@ -1663,10 +1655,10 @@ companies:
 - name: Polymer
   url: https://carbon.ai
   source: https://500.co/portfolio
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: polymer
-  matched_by: name-slug
+  x-name-collision: polymer
+  suggested_slug: carbon-ai
 - name: Carbon Health
   url: https://carbonhealth.com
   source: https://500.co/portfolio
@@ -1838,10 +1830,10 @@ companies:
 - name: Chatsimple
   url: https://chatsimple.ai
   source: https://500.co/portfolio
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: chatsimple
-  matched_by: name-slug
+  x-name-collision: chatsimple
+  suggested_slug: chatsimple-ai
 - name: Cheaf
   url: https://cheaf.com
   source: https://500.co/portfolio
@@ -1985,10 +1977,10 @@ companies:
 - name: Clara
   url: https://clara.co
   source: https://500.co/portfolio
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: clara
-  matched_by: name-slug
+  x-name-collision: clara
+  suggested_slug: clara-co
 - name: Classera
   url: https://classera.com
   source: https://500.co/portfolio
@@ -1999,10 +1991,10 @@ companies:
 - name: Cleanly
   url: https://cleanly.com
   source: https://500.co/portfolio
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: cleanly
-  matched_by: name-slug
+  x-name-collision: cleanly
+  suggested_slug: cleanly-com
 - name: Clearcover
   url: https://clearcover.com
   source: https://500.co/portfolio
@@ -2076,17 +2068,17 @@ companies:
 - name: Cobalt
   url: https://cobalt.io
   source: https://500.co/portfolio
-  slug: cobalt
-  in_network: true
-  is_api_provider: true
-  matched_by: name-slug
+  in_network: false
+  is_api_provider: false
+  x-name-collision: cobalt
+  suggested_slug: cobalt-io
 - name: Coded
   url: https://joincoded.com
   source: https://500.co/portfolio
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: coded
-  matched_by: name-slug
+  x-name-collision: coded
+  suggested_slug: joincoded-com
 - name: Arc
   url: https://codementor.io
   source: https://500.co/portfolio
@@ -2104,10 +2096,10 @@ companies:
 - name: Cocos
   url: https://combonetwork.io
   source: https://500.co/portfolio
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: cocos
-  matched_by: name-slug
+  x-name-collision: cocos
+  suggested_slug: combonetwork-io
 - name: Come Bien
   url: https://comebien.mx
   source: https://500.co/portfolio
@@ -2125,10 +2117,10 @@ companies:
 - name: Cometa
   url: https://getcometa.com
   source: https://500.co/portfolio
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: cometa
-  matched_by: name-slug
+  x-name-collision: cometa
+  suggested_slug: getcometa-com
 - name: Comfi Holdings Limited
   url: https://comfi.ai
   source: https://500.co/portfolio
@@ -2265,10 +2257,10 @@ companies:
 - name: OurHealthMate
   url: https://corporate.ourhealthmate.com
   source: https://500.co/portfolio
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: ourhealthmate
-  matched_by: name-slug
+  x-name-collision: ourhealthmate
+  suggested_slug: ourhealthmate-com
 - name: COSY
   url: https://cosyrobo.com
   source: https://500.co/portfolio
@@ -2337,7 +2329,7 @@ companies:
   source: https://500.co/portfolio
   in_network: true
   is_api_provider: false
-  slug: creditkarma
+  slug: credit-karma
   matched_by: domain
 - name: Creopop
   url: https://creopop.com
@@ -2475,10 +2467,10 @@ companies:
 - name: Dapta
   url: https://daptatech.com
   source: https://500.co/portfolio
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: dapta
-  matched_by: name-slug
+  x-name-collision: dapta
+  suggested_slug: daptatech-com
 - name: Binu
   url: https://datafr.ee
   source: https://500.co/portfolio
@@ -2699,10 +2691,9 @@ companies:
 - name: DocDoc
   url: https://docdoc.com
   source: https://500.co/portfolio
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: docdoc
-  matched_by: domain
+  suggested_slug: docdoc
 - name: Docket Technologies
   url: https://getdocket.com
   source: https://500.co/portfolio
@@ -2748,10 +2739,10 @@ companies:
 - name: Drivio
   url: https://finenyc.com
   source: https://500.co/portfolio
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: drivio
-  matched_by: name-slug
+  x-name-collision: drivio
+  suggested_slug: finenyc-com
 - name: Drover AI
   url: https://drover.ai
   source: https://500.co/portfolio
@@ -2776,7 +2767,7 @@ companies:
 - name: Earthgen Tech
   url: https://earthgen.com.tw
   source: https://500.co/portfolio
-  slug: conde-nast
+  slug: 500nettechnologycoltd
   in_network: true
   is_api_provider: false
   matched_by: domain
@@ -2825,23 +2816,16 @@ companies:
 - name: Ecobites Pte. Ltd.
   url: https://rec-rec.vn
   source: https://500.co/portfolio
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: ecobites-pte-ltd
-  matched_by: name-slug
+  x-name-collision: ecobites-pte-ltd
+  suggested_slug: rec-rec-vn
 - name: EcoCart
   url: https://ecocart.io
   source: https://500.co/portfolio
   in_network: true
   is_api_provider: false
   slug: ecocart
-  matched_by: domain
-- name: Eco Gear
-  url: https://ecogear.co.kr
-  source: https://500.co/portfolio
-  in_network: true
-  is_api_provider: false
-  slug: airbility
   matched_by: domain
 - name: EcomExperts
   url: https://ecomexperts.com
@@ -3007,10 +2991,10 @@ companies:
 - name: EAS Innovations Inc
   url: https://elev8autosolutions.com
   source: https://500.co/portfolio
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: eas-innovations-inc
-  matched_by: name-slug
+  x-name-collision: eas-innovations-inc
+  suggested_slug: elev8autosolutions-com
 - name: Elevarm
   url: https://elevarm.com
   source: https://500.co/portfolio
@@ -3021,10 +3005,10 @@ companies:
 - name: Elevate
   url: https://elevateapp.com
   source: https://500.co/portfolio
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: elevate
-  matched_by: name-slug
+  x-name-collision: elevate
+  suggested_slug: elevateapp-com
 - name: ELKROOM CO., LTD.
   url: https://elkroom.com
   source: https://500.co/portfolio
@@ -3154,10 +3138,10 @@ companies:
 - name: Romit
   url: https://enter.health
   source: https://500.co/portfolio
-  in_network: true
-  is_api_provider: true
-  slug: romit
-  matched_by: name-slug
+  in_network: false
+  is_api_provider: false
+  x-name-collision: romit
+  suggested_slug: enter-health
 - name: Enuma, Inc.
   url: https://enuma.com
   source: https://500.co/portfolio
@@ -3246,7 +3230,7 @@ companies:
   url: https://eventx.io
   source: https://500.co/portfolio
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   slug: eventxtra
   matched_by: domain
 - name: Evermuse
@@ -3385,10 +3369,10 @@ companies:
 - name: Fazla Gida
   url: https://fazlagida.com
   source: https://500.co/portfolio
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: fazla-gida
-  matched_by: name-slug
+  x-name-collision: fazla-gida
+  suggested_slug: fazlagida-com
 - name: Feesable
   url: https://feesable.ai
   source: https://500.co/portfolio
@@ -3401,7 +3385,7 @@ companies:
   source: https://500.co/portfolio
   in_network: true
   is_api_provider: false
-  slug: fidel-api
+  slug: fidel
   matched_by: domain
 - name: FIFOplus
   url: https://fifoplus.com
@@ -3444,13 +3428,6 @@ companies:
   in_network: true
   is_api_provider: false
   slug: back-office
-  matched_by: domain
-- name: Finda
-  url: https://finda.co.kr
-  source: https://500.co/portfolio
-  in_network: true
-  is_api_provider: false
-  slug: airbility
   matched_by: domain
 - name: FineDine
   url: https://finedinemenu.com
@@ -3679,10 +3656,10 @@ companies:
 - name: Alwans
   url: https://foodics.com
   source: https://500.co/portfolio
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: alwans
-  matched_by: name-slug
+  x-name-collision: alwans
+  suggested_slug: foodics-com
 - name: Food Market Hub
   url: https://foodmarkethub.com
   source: https://500.co/portfolio
@@ -3697,12 +3674,6 @@ companies:
   is_api_provider: false
   slug: forged-sports-inc
   matched_by: domain
-- name: ''
-  url: https://n
-  source: https://500.co/portfolio
-  in_network: false
-  is_api_provider: false
-  suggested_slug: ''
 - name: Fortu
   url: https://fortu.co.uk
   source: https://500.co/portfolio
@@ -3778,7 +3749,7 @@ companies:
   source: https://500.co/portfolio
   in_network: true
   is_api_provider: false
-  slug: funding-societies-modalku
+  slug: funding-societies
   matched_by: domain
 - name: Funway
   url: https://funwayesports.com
@@ -3805,7 +3776,7 @@ companies:
   url: https://gameball.co
   source: https://500.co/portfolio
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   slug: gameball
   matched_by: domain
 - name: Garaji
@@ -3958,10 +3929,10 @@ companies:
 - name: Glance Care
   url: https://glance.care
   source: https://500.co/portfolio
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: glance-care
-  matched_by: name-slug
+  x-name-collision: glance-care
+  suggested_slug: glance-care
 - name: Glife
   url: https://glife.com.sg
   source: https://500.co/portfolio
@@ -4000,7 +3971,7 @@ companies:
 - name: Globish
   url: https://globish.co.th
   source: https://500.co/portfolio
-  slug: eli
+  slug: 24fix
   in_network: true
   is_api_provider: false
   matched_by: domain
@@ -4056,7 +4027,7 @@ companies:
 - name: Goldbely
   url: https://goldbelly.com
   source: https://500.co/portfolio
-  slug: goldbelly
+  slug: bassetts-ice-cream
   in_network: true
   is_api_provider: false
   matched_by: domain
@@ -4154,10 +4125,10 @@ companies:
 - name: Graphiq
   url: https://graphiq.design
   source: https://500.co/portfolio
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: graphiq
-  matched_by: name-slug
+  x-name-collision: graphiq
+  suggested_slug: graphiq-design
 - name: Graviti
   url: https://graviti.mx
   source: https://500.co/portfolio
@@ -4198,7 +4169,7 @@ companies:
   source: https://500.co/portfolio
   in_network: true
   is_api_provider: false
-  slug: grove
+  slug: grove-collaborative
   matched_by: domain
 - name: Guide
   url: https://resource.io
@@ -4287,10 +4258,10 @@ companies:
 - name: Hamsa
   url: https://hamsapay.com
   source: https://500.co/portfolio
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: hamsa
-  matched_by: name-slug
+  x-name-collision: hamsa
+  suggested_slug: hamsapay-com
 - name: Hangry
   url: https://ishangry.com
   source: https://500.co/portfolio
@@ -4415,7 +4386,7 @@ companies:
   source: https://500.co/portfolio
   in_network: true
   is_api_provider: false
-  slug: dattch
+  slug: her
   matched_by: domain
 - name: Herbie, Herbie Plan
   url: https://herbieplan.com
@@ -4522,13 +4493,6 @@ companies:
   is_api_provider: false
   slug: hometouch
   matched_by: domain
-- name: Homexin
-  url: https://homexin.com.tw
-  source: https://500.co/portfolio
-  slug: conde-nast
-  in_network: true
-  is_api_provider: false
-  matched_by: domain
 - name: Homzmart
   url: https://homzmart.com
   source: https://500.co/portfolio
@@ -4567,10 +4531,10 @@ companies:
 - name: hotcake 夯客
   url: https://hotcakeapp.com
   source: https://500.co/portfolio
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: hotcake
-  matched_by: name-slug
+  x-name-collision: hotcake
+  suggested_slug: hotcakeapp-com
 - name: Houst
   url: https://houst.com
   source: https://500.co/portfolio
@@ -4673,7 +4637,7 @@ companies:
   url: https://integrated.finance
   source: https://500.co/portfolio
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   slug: if
   matched_by: domain
 - name: Ikas, IKAS Teknoloji AS
@@ -4750,7 +4714,7 @@ companies:
   url: https://improvado.io
   source: https://500.co/portfolio
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   slug: improvado
   matched_by: domain
 - name: In Charge One, Inc.
@@ -4876,7 +4840,7 @@ companies:
   url: https://useinsider.com
   source: https://500.co/portfolio
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   slug: insider
   matched_by: domain
 - name: Instabeat
@@ -4889,10 +4853,10 @@ companies:
 - name: PreAuth (Instacash)
   url: https://instacash.pe
   source: https://500.co/portfolio
-  in_network: true
-  is_api_provider: true
-  slug: preauth-instacash
-  matched_by: name-slug
+  in_network: false
+  is_api_provider: false
+  x-name-collision: preauth-instacash
+  suggested_slug: instacash-pe
 - name: Instanture
   url: https://boostorder.com
   source: https://500.co/portfolio
@@ -4917,10 +4881,9 @@ companies:
 - name: Intella, LTD
   url: https://intellaworld.com
   source: https://500.co/portfolio
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: intella-ltd
-  matched_by: name-slug
+  suggested_slug: intella-ltd
 - name: Intercom
   url: https://intercom.com
   source: https://500.co/portfolio
@@ -5022,10 +4985,10 @@ companies:
 - name: InvestaX
   url: https://is.finance
   source: https://500.co/portfolio
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: investax
-  matched_by: name-slug
+  x-name-collision: investax
+  suggested_slug: is-finance
 - name: Izif
   url: https://izif.com
   source: https://500.co/portfolio
@@ -5036,17 +4999,17 @@ companies:
 - name: CoTeach
   url: https://jackett.io
   source: https://500.co/portfolio
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: coteach
-  matched_by: name-slug
+  x-name-collision: coteach
+  suggested_slug: jackett-io
 - name: Jade Autism
   url: https://jadeautism.com
   source: https://500.co/portfolio
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: jade-autism
-  matched_by: name-slug
+  x-name-collision: jade-autism
+  suggested_slug: jadeautism-com
 - name: Manage BGL
   url: https://jadediabetes.com
   source: https://500.co/portfolio
@@ -5120,10 +5083,10 @@ companies:
 - name: Joy
   url: https://joyapp.io
   source: https://500.co/portfolio
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: joy
-  matched_by: name-slug
+  x-name-collision: joy
+  suggested_slug: joyapp-io
 - name: JoySpace Technologies, Inc.
   url: https://joyspace.ai
   source: https://500.co/portfolio
@@ -5141,10 +5104,10 @@ companies:
 - name: Buffd
   url: https://juked.gg
   source: https://500.co/portfolio
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: buffd
-  matched_by: name-slug
+  x-name-collision: buffd
+  suggested_slug: juked-gg
 - name: Juleb
   url: https://juleb.com
   source: https://500.co/portfolio
@@ -5218,10 +5181,10 @@ companies:
 - name: Goomp Inc, Kalendar AI
   url: https://kalendar.ai
   source: https://500.co/portfolio
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: goomp-inc-kalendar-ai
-  matched_by: domain
+  x-name-collision: goomp-inc-kalendar-ai
+  suggested_slug: kalendar-ai
 - name: KaliSpot
   url: https://kalispot.com
   source: https://500.co/portfolio
@@ -5358,10 +5321,10 @@ companies:
 - name: Kiki
   url: https://kiki.social
   source: https://500.co/portfolio
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: kiki
-  matched_by: name-slug
+  x-name-collision: kiki
+  suggested_slug: kiki-social
 - name: Kiko Labs
   url: https://kikolabs.com
   source: https://500.co/portfolio
@@ -5445,13 +5408,6 @@ companies:
   in_network: true
   is_api_provider: false
   slug: kodable
-  matched_by: domain
-- name: KokkanLogis Co.,Ltd.
-  url: https://kokkanlogis.co.kr
-  source: https://500.co/portfolio
-  in_network: true
-  is_api_provider: false
-  slug: airbility
   matched_by: domain
 - name: KolayIK
   url: https://kolayik.com
@@ -5576,7 +5532,7 @@ companies:
   url: https://labayh.net
   source: https://500.co/portfolio
   in_network: true
-  is_api_provider: true
+  is_api_provider: false
   slug: labayh
   matched_by: domain
 - name: LabDoor
@@ -5645,7 +5601,7 @@ companies:
 - name: Lean Technologies
   url: https://leantech.me
   source: https://500.co/portfolio
-  slug: lean-tech
+  slug: lean-technologies
   in_network: true
   is_api_provider: true
   matched_by: domain
@@ -5653,7 +5609,7 @@ companies:
   url: https://leapcure.com
   source: https://500.co/portfolio
   in_network: true
-  is_api_provider: true
+  is_api_provider: false
   slug: leapcure
   matched_by: domain
 - name: LeaseLock
@@ -5708,10 +5664,10 @@ companies:
 - name: Lexyom
   url: https://lexyom.com
   source: https://500.co/portfolio
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: lexyom
-  matched_by: name-slug
+  x-name-collision: lexyom
+  suggested_slug: lexyom-com
 - name: Lifemote
   url: https://lifemote.com
   source: https://500.co/portfolio
@@ -5876,7 +5832,7 @@ companies:
 - name: Lucid Software
   url: https://lucid.co
   source: https://500.co/portfolio
-  slug: lucidchart
+  slug: lucid
   in_network: true
   is_api_provider: true
   matched_by: domain
@@ -5891,7 +5847,7 @@ companies:
   url: https://lucidya.com
   source: https://500.co/portfolio
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   slug: lucidya-ltd
   matched_by: domain
 - name: lunchlab Corp.
@@ -5925,10 +5881,10 @@ companies:
 - name: Maestro
   url: https://maestro.io
   source: https://500.co/portfolio
-  slug: maestro
-  in_network: true
+  in_network: false
   is_api_provider: false
-  matched_by: name-slug
+  x-name-collision: maestro
+  suggested_slug: maestro-io
 - name: Magnetis
   url: https://magnetis.com.br
   source: https://500.co/portfolio
@@ -6137,7 +6093,7 @@ companies:
   source: https://500.co/portfolio
   in_network: true
   is_api_provider: false
-  slug: meetash
+  slug: ash-wellness
   matched_by: domain
 - name: Lala
   url: https://meetlala.io
@@ -6269,7 +6225,7 @@ companies:
   url: https://metadata.io
   source: https://500.co/portfolio
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   slug: metadata
   matched_by: domain
 - name: Metric
@@ -6345,10 +6301,9 @@ companies:
 - name: OpenPhone
   url: https://mightytext.net
   source: https://500.co/portfolio
-  in_network: true
-  is_api_provider: true
-  slug: openphone
-  matched_by: name-slug
+  in_network: false
+  is_api_provider: false
+  suggested_slug: openphone
 - name: Mile
   url: https://milenow.com
   source: https://500.co/portfolio
@@ -6422,10 +6377,10 @@ companies:
 - name: Blynk
   url: https://mnzl.co
   source: https://500.co/portfolio
-  slug: blynk
-  in_network: true
+  in_network: false
   is_api_provider: false
-  matched_by: name-slug
+  x-name-collision: blynk
+  suggested_slug: mnzl-co
 - name: Mobagel
   url: https://mobagel.com
   source: https://500.co/portfolio
@@ -6698,7 +6653,7 @@ companies:
   in_network: true
   is_api_provider: true
   slug: nas-academy
-  matched_by: name-slug
+  matched_by: domain
 - name: Nawah Scientific
   url: https://nawah-scientific.com
   source: https://500.co/portfolio
@@ -6730,10 +6685,10 @@ companies:
 - name: Neon
   url: https://neonforlife.com
   source: https://500.co/portfolio
-  slug: neon
-  in_network: true
-  is_api_provider: true
-  matched_by: name-slug
+  in_network: false
+  is_api_provider: false
+  x-name-collision: neon
+  suggested_slug: neonforlife-com
 - name: NEO TECH MOBILITY HOLDINGS LIMITED
   url: https://weareneo.co
   source: https://500.co/portfolio
@@ -6842,10 +6797,10 @@ companies:
 - name: Nibbles PBC
   url: https://nibbl.es
   source: https://500.co/portfolio
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: nibbles-pbc
-  matched_by: name-slug
+  x-name-collision: nibbles-pbc
+  suggested_slug: nibbl-es
 - name: Nibras.com
   url: https://nibras.com
   source: https://500.co/portfolio
@@ -6870,10 +6825,10 @@ companies:
 - name: GoNitro
   url: https://gonitros.com
   source: https://500.co/portfolio
-  in_network: true
-  is_api_provider: true
-  slug: gonitro
-  matched_by: name-slug
+  in_network: false
+  is_api_provider: false
+  x-name-collision: gonitro
+  suggested_slug: gonitros-com
 - name: Nizthewiz
   url: https://nizthewiz.com
   source: https://500.co/portfolio
@@ -6985,7 +6940,7 @@ companies:
   in_network: true
   is_api_provider: false
   slug: nugit
-  matched_by: domain
+  matched_by: name-slug
 - name: CTY
   url: https://numina.co
   source: https://500.co/portfolio
@@ -7010,10 +6965,10 @@ companies:
 - name: NXTPLabs
   url: https://nxtplabs.com
   source: https://500.co/portfolio
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: nxtplabs
-  matched_by: name-slug
+  x-name-collision: nxtplabs
+  suggested_slug: nxtplabs-com
 - name: Canopy
   url: https://oasislabs.com
   source: https://500.co/portfolio
@@ -7038,10 +6993,10 @@ companies:
 - name: Octa
   url: https://weareocta.com
   source: https://500.co/portfolio
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: octa
-  matched_by: name-slug
+  x-name-collision: octa
+  suggested_slug: weareocta-com
 - name: Oddup
   url: https://oddup.com
   source: https://500.co/portfolio
@@ -7144,7 +7099,7 @@ companies:
   url: https://opencommercegroup.com
   source: https://500.co/portfolio
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   slug: beeketing
   matched_by: domain
 - name: OpenDurian
@@ -7192,10 +7147,10 @@ companies:
 - name: Rain
   url: https://rainlocal.com
   source: https://500.co/portfolio
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: rain
-  matched_by: name-slug
+  x-name-collision: rain
+  suggested_slug: rainlocal-com
 - name: Alta5
   url: https://optionalpha.com
   source: https://500.co/portfolio
@@ -7265,7 +7220,7 @@ companies:
   in_network: true
   is_api_provider: false
   slug: osly
-  matched_by: name-slug
+  matched_by: domain
 - name: Osyva
   url: https://osyva.com
   source: https://500.co/portfolio
@@ -7298,16 +7253,16 @@ companies:
   url: https://ottimate.com
   source: https://500.co/portfolio
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   slug: ottimate
   matched_by: domain
 - name: Paro
   url: https://plateiq.com
   source: https://500.co/portfolio
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: paro
-  matched_by: name-slug
+  x-name-collision: paro
+  suggested_slug: plateiq-com
 - name: Oumla Ltd
   url: https://oumla.com
   source: https://500.co/portfolio
@@ -7388,10 +7343,10 @@ companies:
 - name: Pantry
   url: https://pantryretail.com
   source: https://500.co/portfolio
-  slug: pantry
-  in_network: true
-  is_api_provider: true
-  matched_by: name-slug
+  in_network: false
+  is_api_provider: false
+  x-name-collision: pantry
+  suggested_slug: pantryretail-com
 - name: Mango Insurance
   url: https://papaya.asia
   source: https://500.co/portfolio
@@ -7525,13 +7480,6 @@ companies:
   is_api_provider: false
   slug: persona-studios
   matched_by: domain
-- name: PeopleFund, Perfect Technologies
-  url: https://pfct.co.kr
-  source: https://500.co/portfolio
-  in_network: true
-  is_api_provider: false
-  slug: airbility
-  matched_by: domain
 - name: PG Studios
   url: https://pg-studios.com
   source: https://500.co/portfolio
@@ -7594,7 +7542,7 @@ companies:
   in_network: true
   is_api_provider: false
   slug: pinoffer
-  matched_by: name-slug
+  matched_by: domain
 - name: Pinshape
   url: https://pinshape.com
   source: https://500.co/portfolio
@@ -7613,7 +7561,7 @@ companies:
   url: https://pixc.com
   source: https://500.co/portfolio
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   slug: pixc
   matched_by: domain
 - name: Pixyalbum
@@ -7857,10 +7805,10 @@ companies:
 - name: Blocto
   url: https://portto.com
   source: https://500.co/portfolio
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: blocto
-  matched_by: name-slug
+  x-name-collision: blocto
+  suggested_slug: portto-com
 - name: Pose
   url: https://pose.vn
   source: https://500.co/portfolio
@@ -8068,7 +8016,7 @@ companies:
   url: https://pushtech.com
   source: https://500.co/portfolio
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   slug: push
   matched_by: domain
 - name: Puzzlium
@@ -8162,13 +8110,6 @@ companies:
   is_api_provider: false
   slug: georama
   matched_by: domain
-- name: Quantum
-  url: https://quantums.com.sa
-  source: https://500.co/portfolio
-  in_network: true
-  is_api_provider: false
-  slug: emtethal
-  matched_by: domain
 - name: Qubit Smart Tickets
   url: https://boletosqubit.co
   source: https://500.co/portfolio
@@ -8197,13 +8138,6 @@ companies:
   is_api_provider: false
   slug: quickshipper
   matched_by: domain
-- name: Quiks Frozen
-  url: https://quiks.co.id
-  source: https://500.co/portfolio
-  slug: erudifi
-  in_network: true
-  is_api_provider: false
-  matched_by: domain
 - name: Quissly Inc.
   url: https://quissly.com
   source: https://500.co/portfolio
@@ -8221,10 +8155,10 @@ companies:
 - name: Qwikwire
   url: https://qwikwire.com
   source: https://500.co/portfolio
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: qwikwire
-  matched_by: name-slug
+  x-name-collision: qwikwire
+  suggested_slug: qwikwire-com
 - name: Rabbit Mobility
   url: https://rabbit-app.com
   source: https://500.co/portfolio
@@ -8236,7 +8170,7 @@ companies:
   url: https://rachio.com
   source: https://500.co/portfolio
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   slug: rachio
   matched_by: domain
 - name: No Diet
@@ -8280,13 +8214,6 @@ companies:
   in_network: true
   is_api_provider: false
   slug: rapchat
-  matched_by: domain
-- name: RareLee
-  url: https://rarelee.co.kr
-  source: https://500.co/portfolio
-  in_network: true
-  is_api_provider: false
-  slug: airbility
   matched_by: domain
 - name: Raseedi
   url: https://raseediapp.com
@@ -8347,17 +8274,16 @@ companies:
 - name: InfuseAI
   url: https://infuseai.io
   source: https://500.co/portfolio
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: infuseai
-  matched_by: name-slug
+  x-name-collision: infuseai
+  suggested_slug: infuseai-io
 - name: Recursal AI, Inc.
   url: https://recursal.ai
   source: https://500.co/portfolio
-  in_network: true
-  is_api_provider: true
-  slug: featherless
-  matched_by: domain
+  in_network: false
+  is_api_provider: false
+  suggested_slug: recursal-ai-inc
 - name: Reddit
   url: https://redditinc.com
   source: https://500.co/portfolio
@@ -8389,10 +8315,10 @@ companies:
 - name: Leadstate Incorporated
   url: https://reelprop.ai
   source: https://500.co/portfolio
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: leadstate-incorporated
-  matched_by: name-slug
+  x-name-collision: leadstate-incorporated
+  suggested_slug: reelprop-ai
 - name: Reliv
   url: https://reliv.la
   source: https://500.co/portfolio
@@ -8439,7 +8365,7 @@ companies:
   url: https://replyr.ai
   source: https://500.co/portfolio
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   slug: replyrai
   matched_by: domain
 - name: Invidica
@@ -8473,10 +8399,10 @@ companies:
 - name: Resulticks
   url: https://interakt.co
   source: https://500.co/portfolio
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: resulticks
-  matched_by: name-slug
+  x-name-collision: resulticks
+  suggested_slug: interakt-co
 - name: Retailo
   url: https://retailo.co
   source: https://500.co/portfolio
@@ -8522,10 +8448,10 @@ companies:
 - name: GoWork
   url: https://rework.id
   source: https://500.co/portfolio
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: gowork
-  matched_by: name-slug
+  x-name-collision: gowork
+  suggested_slug: rework-id
 - name: Rhythmos
   url: https://rhythmos.io
   source: https://500.co/portfolio
@@ -8539,13 +8465,6 @@ companies:
   in_network: true
   is_api_provider: false
   slug: riide
-  matched_by: domain
-- name: Ringkas
-  url: https://ringkas.co.id
-  source: https://500.co/portfolio
-  slug: erudifi
-  in_network: true
-  is_api_provider: false
   matched_by: domain
 - name: Ring Radar
   url: https://ringradar.com
@@ -8564,9 +8483,9 @@ companies:
 - name: Ripple Labs
   url: https://ripple.com
   source: https://500.co/portfolio
-  slug: ripple-labs
+  slug: hidden-road
   in_network: true
-  is_api_provider: true
+  is_api_provider: false
   matched_by: domain
 - name: Vegafund
   url: https://getroi.app
@@ -8592,10 +8511,10 @@ companies:
 - name: Rover
   url: https://judo.app
   source: https://500.co/portfolio
-  slug: rover
-  in_network: true
+  in_network: false
   is_api_provider: false
-  matched_by: name-slug
+  x-name-collision: rover
+  suggested_slug: judo-app
 - name: Rovilus
   url: https://rovilus.com
   source: https://500.co/portfolio
@@ -8634,10 +8553,10 @@ companies:
 - name: Runway Financial
   url: https://runway.com
   source: https://500.co/portfolio
-  in_network: true
-  is_api_provider: true
-  slug: runway-financial
-  matched_by: name-slug
+  in_network: false
+  is_api_provider: false
+  x-name-collision: runway-financial
+  suggested_slug: runway-com
 - name: RUUT
   url: https://ruut.mx
   source: https://500.co/portfolio
@@ -8669,10 +8588,10 @@ companies:
 - name: Sadq Holding Limited
   url: https://sadq-sa.com
   source: https://500.co/portfolio
-  in_network: true
-  is_api_provider: true
-  slug: sadq-holding-limited
-  matched_by: name-slug
+  in_network: false
+  is_api_provider: false
+  x-name-collision: sadq-holding-limited
+  suggested_slug: sadq-sa-com
 - name: Safqah Holdings Limited
   url: https://safqah.co
   source: https://500.co/portfolio
@@ -8733,7 +8652,7 @@ companies:
   url: https://samu.ai
   source: https://500.co/portfolio
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   slug: samu
   matched_by: domain
 - name: Sanad Cash
@@ -8802,10 +8721,10 @@ companies:
 - name: Scape
   url: https://scape.mx
   source: https://500.co/portfolio
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: scape
-  matched_by: name-slug
+  x-name-collision: scape
+  suggested_slug: scape-mx
 - name: SCENARIO-X GLOBAL HOLDING PTE. LTD.
   url: https://scenario-x.ai
   source: https://500.co/portfolio
@@ -8858,10 +8777,10 @@ companies:
 - name: Scouter
   url: https://scouter.com.mx
   source: https://500.co/portfolio
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: scouter
-  matched_by: name-slug
+  x-name-collision: scouter
+  suggested_slug: scouter-com-mx
 - name: Screencloud
   url: https://screencloud.com
   source: https://500.co/portfolio
@@ -8893,10 +8812,10 @@ companies:
 - name: Send4 Tecnologia
   url: https://send4.com.br
   source: https://500.co/portfolio
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: send4-tecnologia
-  matched_by: name-slug
+  x-name-collision: send4-tecnologia
+  suggested_slug: send4-com-br
 - name: Sendspark
   url: https://sendspark.com
   source: https://500.co/portfolio
@@ -8914,7 +8833,7 @@ companies:
 - name: Sentry
   url: https://sentry.io
   source: https://500.co/portfolio
-  slug: sentry
+  slug: sentry-system
   in_network: true
   is_api_provider: true
   matched_by: domain
@@ -9006,8 +8925,8 @@ companies:
   url: https://shiprocket.in
   source: https://500.co/portfolio
   in_network: true
-  is_api_provider: false
-  slug: kartrocket
+  is_api_provider: true
+  slug: shiprocket
   matched_by: domain
 - name: ShipTag INC
   url: https://shiptag.com
@@ -9138,17 +9057,10 @@ companies:
 - name: Alpharank
   url: https://silversentinel.ai
   source: https://500.co/portfolio
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: alpharank
-  matched_by: name-slug
-- name: Simpatico Project
-  url: https://clify.co.kr
-  source: https://500.co/portfolio
-  in_network: true
-  is_api_provider: false
-  slug: airbility
-  matched_by: domain
+  x-name-collision: alpharank
+  suggested_slug: silversentinel-ai
 - name: SimpleHoney
   url: https://iwanthoney.com
   source: https://500.co/portfolio
@@ -9264,10 +9176,9 @@ companies:
 - name: KUFU
   url: https://smarthr.co.jp
   source: https://500.co/portfolio
-  in_network: true
-  is_api_provider: true
-  slug: smarthr
-  matched_by: domain
+  in_network: false
+  is_api_provider: false
+  suggested_slug: kufu
 - name: Smile Identity
   url: https://smileidentity.com
   source: https://500.co/portfolio
@@ -9299,10 +9210,10 @@ companies:
 - name: Snout
   url: https://snoutid.com
   source: https://500.co/portfolio
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: snout
-  matched_by: name-slug
+  x-name-collision: snout
+  suggested_slug: snoutid-com
 - name: Socialee
   url: https://socialee.shop
   source: https://500.co/portfolio
@@ -9383,10 +9294,10 @@ companies:
 - name: Spaceship
   url: https://spaceshipapp.com
   source: https://500.co/portfolio
-  in_network: true
-  is_api_provider: true
-  slug: spaceship
-  matched_by: name-slug
+  in_network: false
+  is_api_provider: false
+  x-name-collision: spaceship
+  suggested_slug: spaceshipapp-com
 - name: Spare
   url: https://tryspare.com
   source: https://500.co/portfolio
@@ -9404,10 +9315,10 @@ companies:
 - name: TAAI Labs, Inc
   url: https://thesparkle.ai
   source: https://500.co/portfolio
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: taai-labs-inc
-  matched_by: name-slug
+  x-name-collision: taai-labs-inc
+  suggested_slug: thesparkle-ai
 - name: SpeedHome
   url: https://speedhome.com
   source: https://500.co/portfolio
@@ -9763,7 +9674,7 @@ companies:
   source: https://500.co/portfolio
   in_network: true
   is_api_provider: false
-  slug: sv-academy
+  slug: svacademy
   matched_by: domain
 - name: Svastia
   url: https://svastia.ai
@@ -9817,15 +9728,15 @@ companies:
 - name: SwipeRx
   url: https://swiperxapp.com
   source: https://500.co/portfolio
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: swiperx
-  matched_by: name-slug
+  x-name-collision: swiperx
+  suggested_slug: swiperxapp-com
 - name: Syncly
   url: https://syncly.app
   source: https://500.co/portfolio
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   slug: syncly
   matched_by: domain
 - name: Synervoz
@@ -9926,13 +9837,6 @@ companies:
   is_api_provider: false
   slug: tammwel
   matched_by: domain
-- name: TapHomes
-  url: https://taphomes.co.id
-  source: https://500.co/portfolio
-  slug: erudifi
-  in_network: true
-  is_api_provider: false
-  matched_by: domain
 - name: Tarefa
   url: https://tarefa.co
   source: https://500.co/portfolio
@@ -10016,13 +9920,6 @@ companies:
   in_network: true
   is_api_provider: false
   slug: tedi
-  matched_by: domain
-- name: Tees
-  url: https://tees.co.id
-  source: https://500.co/portfolio
-  slug: erudifi
-  in_network: true
-  is_api_provider: false
   matched_by: domain
 - name: Telgani
   url: https://telgani.com
@@ -10174,10 +10071,10 @@ companies:
 - name: tnlmedia
   url: https://tnlmedia.com
   source: https://500.co/portfolio
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: tnlmedia
-  matched_by: name-slug
+  x-name-collision: tnlmedia
+  suggested_slug: tnlmedia-com
 - name: Tome
   url: https://beta.tome.app
   source: https://500.co/portfolio
@@ -10230,10 +10127,10 @@ companies:
 - name: TPP GROUP INC.
   url: https://tpp.network
   source: https://500.co/portfolio
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: tpp-group-inc
-  matched_by: name-slug
+  x-name-collision: tpp-group-inc
+  suggested_slug: tpp-network
 - name: Trace
   url: https://tracehq.com
   source: https://500.co/portfolio
@@ -10294,7 +10191,7 @@ companies:
   url: https://trend.io
   source: https://500.co/portfolio
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   slug: trend
   matched_by: domain
 - name: Tripitaca, Inc.
@@ -10426,10 +10323,10 @@ companies:
 - name: Ubuntu
   url: https://utribe.one
   source: https://500.co/portfolio
-  slug: ubuntu
-  in_network: true
-  is_api_provider: true
-  matched_by: name-slug
+  in_network: false
+  is_api_provider: false
+  x-name-collision: ubuntu
+  suggested_slug: utribe-one
 - name: Ulu Ventures
   url: https://uluventures.com
   source: https://500.co/portfolio
@@ -10587,10 +10484,10 @@ companies:
 - name: Valeo
   url: https://feelvaleo.com
   source: https://500.co/portfolio
-  slug: valeo
-  in_network: true
+  in_network: false
   is_api_provider: false
-  matched_by: name-slug
+  x-name-collision: valeo
+  suggested_slug: feelvaleo-com
 - name: VaultDragon
   url: https://vaultdragon.com
   source: https://500.co/portfolio
@@ -10759,13 +10656,6 @@ companies:
   is_api_provider: false
   slug: visionful
   matched_by: domain
-- name: Vision Space Inc.
-  url: https://visionspace.co.kr
-  source: https://500.co/portfolio
-  in_network: true
-  is_api_provider: false
-  slug: airbility
-  matched_by: domain
 - name: Vivoo
   url: https://vivoo.io
   source: https://500.co/portfolio
@@ -10801,13 +10691,6 @@ companies:
   is_api_provider: false
   slug: and-volume
   matched_by: domain
-- name: Vonder
-  url: https://vonder.co.th
-  source: https://500.co/portfolio
-  slug: eli
-  in_network: true
-  is_api_provider: false
-  matched_by: domain
 - name: VonBox
   url: https://vonjour.com
   source: https://500.co/portfolio
@@ -10818,7 +10701,7 @@ companies:
 - name: Vouch
   url: https://vouch.us
   source: https://500.co/portfolio
-  slug: vouch
+  slug: vouch-co
   in_network: true
   is_api_provider: false
   matched_by: domain
@@ -10945,7 +10828,7 @@ companies:
   url: https://whisperr.online
   source: https://500.co/portfolio
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   slug: whisperr-inc
   matched_by: name-slug
 - name: WholeShare
@@ -11028,10 +10911,10 @@ companies:
 - name: Wombo
   url: https://wombo.gg
   source: https://500.co/portfolio
-  in_network: true
-  is_api_provider: true
-  slug: wombo
-  matched_by: name-slug
+  in_network: false
+  is_api_provider: false
+  x-name-collision: wombo
+  suggested_slug: wombo-gg
 - name: Soldsie
   url: https://wonderschool.com
   source: https://500.co/portfolio
@@ -11338,7 +11221,7 @@ companies:
   source: https://500.co/portfolio
   in_network: true
   is_api_provider: false
-  slug: zoog
+  slug: zoogai-ltd
   matched_by: domain
 - name: Zoomforth
   url: https://zoomforth.com
@@ -11357,10 +11240,10 @@ companies:
 - name: Paedae
   url: https://fysical.com
   source: https://500.co/portfolio
-  in_network: true
-  is_api_provider: true
-  slug: paedae
-  matched_by: name-slug
+  in_network: false
+  is_api_provider: false
+  x-name-collision: paedae
+  suggested_slug: fysical-com
 - name: CraftCoffee
   url: https://craftcoffee.com
   source: https://500.co/portfolio
@@ -11371,10 +11254,10 @@ companies:
 - name: Whiplash Merchandising
   url: https://whiplashmerch.com
   source: https://500.co/portfolio
-  in_network: true
-  is_api_provider: true
-  slug: whiplash-merchandising
-  matched_by: name-slug
+  in_network: false
+  is_api_provider: false
+  x-name-collision: whiplash-merchandising
+  suggested_slug: whiplashmerch-com
 - name: WayPay
   url: https://waypay.ca
   source: https://500.co/portfolio
@@ -11385,10 +11268,10 @@ companies:
 - name: Your Superfoods
   url: https://yoursuper.com
   source: https://500.co/portfolio
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: your-superfoods
-  matched_by: name-slug
+  x-name-collision: your-superfoods
+  suggested_slug: yoursuper-com
 - name: Moveha
   url: https://moveha.com
   source: https://500.co/portfolio
@@ -11532,10 +11415,10 @@ companies:
 - name: Tapastic
   url: https://tapastic.com
   source: https://500.co/portfolio
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: tapastic
-  matched_by: name-slug
+  x-name-collision: tapastic
+  suggested_slug: tapastic-com
 - name: Jeeran
   url: https://jeeran.com
   source: https://500.co/portfolio
@@ -11567,17 +11450,17 @@ companies:
 - name: Klarity
   url: https://klarity-analytics.com
   source: https://500.co/portfolio
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: klarity
-  matched_by: name-slug
+  x-name-collision: klarity
+  suggested_slug: klarity-analytics-com
 - name: Cyberpsyc
   url: https://mywelltrack.com
   source: https://500.co/portfolio
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: cyberpsyc
-  matched_by: name-slug
+  x-name-collision: cyberpsyc
+  suggested_slug: mywelltrack-com
 - name: MyLife
   url: https://stopbreathethink.com
   source: https://500.co/portfolio
@@ -11599,13 +11482,6 @@ companies:
   is_api_provider: false
   slug: homigo
   matched_by: domain
-- name: Kudo
-  url: https://kudo.co.id
-  source: https://500.co/portfolio
-  slug: erudifi
-  in_network: true
-  is_api_provider: false
-  matched_by: domain
 - name: LittleFund
   url: https://littlefund.co
   source: https://500.co/portfolio
@@ -11626,13 +11502,6 @@ companies:
   in_network: true
   is_api_provider: false
   slug: instapaisa
-  matched_by: domain
-- name: Hipflat
-  url: https://hipflat.co.th
-  source: https://500.co/portfolio
-  slug: eli
-  in_network: true
-  is_api_provider: false
   matched_by: domain
 - name: Cloudability
   url: https://cloudability.com
@@ -11833,10 +11702,10 @@ companies:
 - name: Humanco
   url: https://human.co
   source: https://500.co/portfolio
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: humanco
-  matched_by: name-slug
+  x-name-collision: humanco
+  suggested_slug: human-co
 - name: Smith
   url: https://gosmith.com
   source: https://500.co/portfolio
@@ -11924,17 +11793,17 @@ companies:
 - name: Bunch
   url: https://joinbunch.com
   source: https://500.co/portfolio
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: bunch
-  matched_by: name-slug
+  x-name-collision: bunch
+  suggested_slug: joinbunch-com
 - name: LocBox Labs
   url: https://fetchrev.com
   source: https://500.co/portfolio
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: locbox-labs
-  matched_by: domain
+  x-name-collision: locbox-labs
+  suggested_slug: fetchrev-com
 - name: Clicky
   url: https://clickypass.com
   source: https://500.co/portfolio
@@ -11987,10 +11856,10 @@ companies:
 - name: Freejit
   url: https://qualaroo.com
   source: https://500.co/portfolio
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: freejit
-  matched_by: name-slug
+  x-name-collision: freejit
+  suggested_slug: qualaroo-com
 - name: CE 140
   url: https://siftery.com
   source: https://500.co/portfolio
@@ -12015,10 +11884,9 @@ companies:
 - name: EXA
   url: https://sabr.io
   source: https://500.co/portfolio
-  slug: exa
-  in_network: true
-  is_api_provider: true
-  matched_by: name-slug
+  in_network: false
+  is_api_provider: false
+  suggested_slug: exa
 - name: Qwil
   url: https://qwil.co
   source: https://500.co/portfolio
@@ -12085,10 +11953,10 @@ companies:
 - name: Limbo Labs
   url: https://readyforzero.com
   source: https://500.co/portfolio
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: limbo-labs
-  matched_by: name-slug
+  x-name-collision: limbo-labs
+  suggested_slug: readyforzero-com
 - name: Motion Math
   url: https://motionmathgames.com
   source: https://500.co/portfolio
@@ -12155,16 +12023,16 @@ companies:
 - name: Saucey
   url: https://sauceyapp.com
   source: https://500.co/portfolio
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: saucey
-  matched_by: name-slug
+  x-name-collision: saucey
+  suggested_slug: sauceyapp-com
 - name: StudyEdge
   url: https://studyedge.com
   source: https://500.co/portfolio
   in_network: true
   is_api_provider: false
-  slug: studyedge
+  slug: study-edge
   matched_by: domain
 - name: Geekatoo
   url: https://geekatoo.com
@@ -12247,7 +12115,7 @@ companies:
   url: https://ownlocal.com
   source: https://500.co/portfolio
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   slug: ownlocal
   matched_by: domain
 - name: Shakr Media
@@ -12330,10 +12198,10 @@ companies:
 - name: postcron
   url: https://socialtools.me
   source: https://500.co/portfolio
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: postcron
-  matched_by: name-slug
+  x-name-collision: postcron
+  suggested_slug: socialtools-me
 - name: Yacob
   url: https://yacob.com
   source: https://500.co/portfolio
@@ -12372,10 +12240,9 @@ companies:
 - name: Button
   url: https://mysteryscience.com
   source: https://500.co/portfolio
-  in_network: true
-  is_api_provider: true
-  slug: button
-  matched_by: name-slug
+  in_network: false
+  is_api_provider: false
+  suggested_slug: button
 - name: Contactually
   url: https://contactually.com
   source: https://500.co/portfolio
@@ -12688,9 +12555,9 @@ companies:
   url: https://sitejabber.com
   source: https://500.co/portfolio
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   slug: sitejabber
-  matched_by: name-slug
+  matched_by: domain
 - name: Yealthy
   url: https://fullstackacademy.com
   source: https://500.co/portfolio
@@ -12722,10 +12589,10 @@ companies:
 - name: EcoMom
   url: https://ecomom.com
   source: https://500.co/portfolio
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: ecomom
-  matched_by: name-slug
+  x-name-collision: ecomom
+  suggested_slug: ecomom-com
 - name: Virool
   url: https://virool.com
   source: https://500.co/portfolio
@@ -12779,7 +12646,7 @@ companies:
   url: https://lishfood.com
   source: https://500.co/portfolio
   in_network: true
-  is_api_provider: true
+  is_api_provider: false
   slug: lish
   matched_by: domain
 - name: Texel
@@ -12792,10 +12659,10 @@ companies:
 - name: Artivest
   url: https://artivest.co
   source: https://500.co/portfolio
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: artivest
-  matched_by: name-slug
+  x-name-collision: artivest
+  suggested_slug: artivest-co
 - name: Bstow
   url: https://cheerfulgiving.com
   source: https://500.co/portfolio
@@ -12828,16 +12695,16 @@ companies:
   url: https://plangrid.com
   source: https://500.co/portfolio
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   slug: plangrid
   matched_by: domain
 - name: Greply
   url: https://streem.com
   source: https://500.co/portfolio
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: greply
-  matched_by: name-slug
+  x-name-collision: greply
+  suggested_slug: streem-com
 - name: SendHub
   url: https://sendhub.com
   source: https://500.co/portfolio
@@ -12925,10 +12792,10 @@ companies:
 - name: YouScan
   url: https://leadscanr.com
   source: https://500.co/portfolio
-  in_network: true
-  is_api_provider: true
-  slug: youscan
-  matched_by: name-slug
+  in_network: false
+  is_api_provider: false
+  x-name-collision: youscan
+  suggested_slug: leadscanr-com
 - name: CourseGuide
   url: https://coursereport.com
   source: https://500.co/portfolio
@@ -12995,10 +12862,10 @@ companies:
 - name: Disco
   url: https://justdisco.com
   source: https://500.co/portfolio
-  slug: disco
-  in_network: true
+  in_network: false
   is_api_provider: false
-  matched_by: name-slug
+  x-name-collision: disco
+  suggested_slug: justdisco-com
 - name: ChangeTip
   url: https://changetip.com
   source: https://500.co/portfolio
@@ -13016,10 +12883,10 @@ companies:
 - name: Inofab
   url: https://spirohome.io
   source: https://500.co/portfolio
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: inofab
-  matched_by: name-slug
+  x-name-collision: inofab
+  suggested_slug: spirohome-io
 - name: Tripoto Travel
   url: https://tripoto.com
   source: https://500.co/portfolio
@@ -13037,10 +12904,10 @@ companies:
 - name: Omise
   url: https://opn.ooo
   source: https://500.co/portfolio
-  slug: omise
-  in_network: true
-  is_api_provider: true
-  matched_by: name-slug
+  in_network: false
+  is_api_provider: false
+  x-name-collision: omise
+  suggested_slug: opn-ooo
 - name: Okol
   url: https://propiedades.com
   source: https://500.co/portfolio
@@ -13114,10 +12981,10 @@ companies:
 - name: Sonar
   url: https://sendsonar.com
   source: https://500.co/portfolio
-  slug: sonar
-  in_network: true
-  is_api_provider: true
-  matched_by: name-slug
+  in_network: false
+  is_api_provider: false
+  x-name-collision: sonar
+  suggested_slug: sendsonar-com
 - name: QueueDr
   url: https://queuedr.com
   source: https://500.co/portfolio
@@ -13415,10 +13282,10 @@ companies:
 - name: Hawaya
   url: https://harmonica.life
   source: https://500.co/portfolio
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: hawaya
-  matched_by: name-slug
+  x-name-collision: hawaya
+  suggested_slug: harmonica-life
 - name: Bankiom
   url: https://bankiom.com
   source: https://500.co/portfolio
@@ -13457,10 +13324,10 @@ companies:
 - name: Bucket
   url: https://likebucket.com
   source: https://500.co/portfolio
-  in_network: true
-  is_api_provider: true
-  slug: bucket
-  matched_by: name-slug
+  in_network: false
+  is_api_provider: false
+  x-name-collision: bucket
+  suggested_slug: likebucket-com
 - name: Modest
   url: https://modest.com
   source: https://500.co/portfolio
@@ -13513,10 +13380,10 @@ companies:
 - name: Shoppr
   url: https://usetrace.com
   source: https://500.co/portfolio
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: shoppr
-  matched_by: name-slug
+  x-name-collision: shoppr
+  suggested_slug: usetrace-com
 - name: HelloFlo
   url: https://helloflo.com
   source: https://500.co/portfolio
@@ -13527,10 +13394,10 @@ companies:
 - name: Don.na
   url: https://incredible.io
   source: https://500.co/portfolio
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: donna
-  matched_by: name-slug
+  x-name-collision: donna
+  suggested_slug: incredible-io
 - name: Jobedu
   url: https://jobedu.com
   source: https://500.co/portfolio
@@ -13625,10 +13492,10 @@ companies:
 - name: Polly
   url: https://askwhale.com
   source: https://500.co/portfolio
-  slug: polly
-  in_network: true
+  in_network: false
   is_api_provider: false
-  matched_by: name-slug
+  x-name-collision: polly
+  suggested_slug: askwhale-com
 - name: Japan
   url: https://fullcourt.co
   source: https://500.co/portfolio
@@ -13646,10 +13513,10 @@ companies:
 - name: Chalkable
   url: https://huntersystems.com
   source: https://500.co/portfolio
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: chalkable
-  matched_by: name-slug
+  x-name-collision: chalkable
+  suggested_slug: huntersystems-com
 - name: Tradesy
   url: https://tradesy.com
   source: https://500.co/portfolio
@@ -13675,7 +13542,7 @@ companies:
   url: https://mattermark.com
   source: https://500.co/portfolio
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   slug: mattermark
   matched_by: domain
 - name: Salido
@@ -13786,10 +13653,10 @@ companies:
 - name: Grin
   url: https://ongrin.com
   source: https://500.co/portfolio
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: grin
-  matched_by: name-slug
+  x-name-collision: grin
+  suggested_slug: ongrin-com
 - name: Ostaz
   url: https://synkers.com
   source: https://500.co/portfolio
@@ -13864,7 +13731,7 @@ companies:
   url: https://jeeng.com
   source: https://500.co/portfolio
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   slug: jeeng
   matched_by: domain
 - name: Junglee Games
@@ -14073,10 +13940,10 @@ companies:
 - name: Adjoint
   url: https://boostable.com
   source: https://500.co/portfolio
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: adjoint
-  matched_by: name-slug
+  x-name-collision: adjoint
+  suggested_slug: boostable-com
 - name: LaunchRock
   url: https://launchrock.com
   source: https://500.co/portfolio
@@ -14115,10 +13982,9 @@ companies:
 - name: Shortcut
   url: https://autonomous.ai
   source: https://500.co/portfolio
-  slug: shortcut
-  in_network: true
-  is_api_provider: true
-  matched_by: name-slug
+  in_network: false
+  is_api_provider: false
+  suggested_slug: shortcut
 - name: Tello
   url: https://tello.com
   source: https://500.co/portfolio
@@ -14207,7 +14073,7 @@ companies:
   url: https://optimyzee.com
   source: https://500.co/portfolio
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   slug: optimyzee
   matched_by: domain
 - name: BenRevo
@@ -14220,10 +14086,10 @@ companies:
 - name: Dverse
   url: https://symmetry-dimensions.com
   source: https://500.co/portfolio
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: dverse
-  matched_by: name-slug
+  x-name-collision: dverse
+  suggested_slug: symmetry-dimensions-com
 - name: SafeShepherd
   url: https://safeshepherd.com
   source: https://500.co/portfolio
@@ -14283,10 +14149,10 @@ companies:
 - name: Fatora
   url: https://maktapp.com
   source: https://500.co/portfolio
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: fatora
-  matched_by: name-slug
+  x-name-collision: fatora
+  suggested_slug: maktapp-com
 - name: Pocket Menu
   url: https://pocket-concierge.jp
   source: https://500.co/portfolio
@@ -14339,10 +14205,10 @@ companies:
 - name: Waffl
   url: https://postling.com
   source: https://500.co/portfolio
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: waffl
-  matched_by: name-slug
+  x-name-collision: waffl
+  suggested_slug: postling-com
 - name: Modus
   url: https://modusclosing.com
   source: https://500.co/portfolio
@@ -14437,10 +14303,10 @@ companies:
 - name: Upcode Academy
   url: https://40tasks.com
   source: https://500.co/portfolio
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: upcode-academy
-  matched_by: name-slug
+  x-name-collision: upcode-academy
+  suggested_slug: 40tasks-com
 - name: Wittlebee
   url: https://wittlebee.com
   source: https://500.co/portfolio
@@ -14843,10 +14709,10 @@ companies:
 - name: Causera
   url: https://simplycircle.com
   source: https://500.co/portfolio
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: causera
-  matched_by: name-slug
+  x-name-collision: causera
+  suggested_slug: simplycircle-com
 - name: WhoAPI
   url: https://whoapi.com
   source: https://500.co/portfolio
@@ -14864,10 +14730,9 @@ companies:
 - name: Hexa
   url: https://hexa.ai
   source: https://500.co/portfolio
-  slug: hexa
-  in_network: true
-  is_api_provider: true
-  matched_by: name-slug
+  in_network: false
+  is_api_provider: false
+  suggested_slug: hexa
 - name: MoonFruit
   url: https://moonfruit.com
   source: https://500.co/portfolio
