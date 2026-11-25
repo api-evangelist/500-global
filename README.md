@@ -1,4 +1,4 @@
-# 500-global
+# 500 Global
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -63,3 +63,34 @@
 >
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
+
+500 Global (formerly 500 Startups) is a global venture capital firm and startup accelerator founded in 2010 by Dave McClure and Christine Tsai and headquartered in Palo Alto / Silicon Valley, California. The firm invests from pre-seed to pre-IPO in globally ambitious technology founders, built on the belief that "talent lives everywhere, but capital and opportunity does not." 500 Global pioneered a "lots of little bets" seed strategy, backing hundreds of companies per fund with smaller initial checks, and has grown one of the industry's largest truly global seed portfolios: 3,000+ companies across 80+ countries with $300B+ in cumulative portfolio valuation, including 35+ companies valued at $1B+ and 160+ valued at more than $100M. It runs regional and thematic practices spanning Southeast Asia, Latin America, MENA, Africa, Japan, Korea, Thailand, and Eurasia, plus a Sustainable Growth strategy (health, climate, agriculture, gender, education), flagship accelerator programs, and the VC Unlocked investor-education program that has trained 1,400+ investors. As of April 30, 2025 the firm reported approximately $2.3B in assets under management. Notable investments include Canva, Grab, Talkdesk, Credit Karma, Twilio, and Bukalapak.
+
+**Areas:** Venture Capital · Accelerator · Pre-Seed · Seed · Series A · Growth · Fintech · Software-as-a-Service · Developer Tools · Artificial Intelligence · Emerging Markets · Global
+
+## 500 Global on APIs.io
+
+Everything profiled for 500 Global is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/500-global/](https://apis.io/providers/500-global/)** — or go straight to one of the APIs or properties below.
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://500.co/)
+- [Blog](https://500.co/content)
+
+## API Evangelist rating
+
+Not yet rated. See [apis.io/providers/500-global/](https://apis.io/providers/500-global/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for 500 Global: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/500-global/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
